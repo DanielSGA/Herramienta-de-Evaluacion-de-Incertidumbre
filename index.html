@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Herramienta de evaluacion de incertidumbre</title>
+    <h1>HERRAMIENTA DE EVALUACIÓN DE INCERTIDUMBRE</h1>
+</head>
+<body>
+    
+    <div class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
+
+    <div>
+    <div class="attr">Se mapea una <b>necesidad</b> identificada</div>
+
+    <select name="opciones" id="necesidad" class="drop">
+        <option value="0">Selecciona una opción...</option>
+        <option value="1">1 - No aparece como necesidad</option>
+        <option value="2">2 - Necesidad no prioritaria</option>
+        <option value="3">3 - Necesidad prioritaria</option>
+    </select>
+
+    <div class="attr">¿Se mapea a alguna de las <b>tendencias</b> de la oficina 2030?</div>
+
+    <select name="opciones" id="tendencia" class="drop">
+        <option value="0">Selecciona una opción...</option>
+        <option value="1">1 - Technology</option>
+        <option value="2">2 - Low</option>
+        <option value="3">3 - Moderate</option>
+        <option value="4">4 - Hot</option>
+        <option value="5">3 - Very Hot</option>
+    </select>
+
+    <div class="attr">¿A qué <b>tipo de proyecto</b> se relaciona esta idea?</div>
+
+    <select name="opciones" id="proyecto" class="drop">
+        <option value="0">Selecciona una opción...</option>
+        <option value="1">1 - Nuevo Big-i</option>
+        <option value="2">2 - Big-i existente</option>
+        <option value="3">3 - Nuevo Small-i</option>
+        <option value="4">4 - Small-i existente</option>
+    </select>
+
+    <div class="attr">¿A qué <b>tipo de innovación</b> pertenece la idea?</div>
+
+    <select name="opciones" id="innovacion" class="drop">
+        <option value="0">Selecciona una opción...</option>
+        <option value="1">1 - Transformador</option>
+        <option value="2">2 - Semi-radical</option>
+        <option value="3">3 - Disruptivo</option>
+        <option value="4">4 - Incremental</option>
+    </select>
+</div>
+
+<div class="button">
+    <input type="button" value="CALCULAR" id="btn_cal">
+    <input type="button" value="LIMPIAR" id="btn_clean">
+</div>
+
+<div id="res" hidden>
+    Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Natus, cumque laboriosam 
+    pariatur fugiat ab iste tenetur corporis accusamus 
+    asperiores fugit quis rem obcaecati dolore nihil 
+    facilis ratione dolorem consequatur necessitatibus.
+</div>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

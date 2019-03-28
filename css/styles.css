@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 30px 30px 30px 30px;
+    margin: -10px;
+}
+
+.desc {
+    font-family: 'Montserrat';
+    margin: 50px 20px;
+    font-weight: bolder;
+}
+
+b {
+    font-weight: 1000;
+}
+
+.attr {
+    margin: 5px 20px;
+    font-family: 'Montserrat';
+    font-size: x-large;
+}
+
+.drop {
+    font-family: 'Montserrat';
+    margin: 20px 20px 45px;
+    height: 30px;
+    font-size: medium;
+}
+
+.button {
+    text-align: center;
+    margin: 5px;
+}
+
+input[type="button"] {
+    padding: 25px 100px 25px 100px;
+    background-color: black;
+    color: white;
+    border-radius: 0.5px;
+    transition: background-color 1.5s;
+    font-size: medium;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Lato';
+    margin-bottom: 20px;
+
+}
+
+input[type="button"]:hover {
+    opacity: 0.5;
+    background-color: grey;
+}
+
+input[type="button"]:active {
+    transform: translateY(4px);
+    box-shadow: 0 7px #666;
+}
+
+input[type="button"]:focus {
+    outline:0;
+}
