@@ -62,3 +62,33 @@ input[type="button"]:active {
 input[type="button"]:focus {
     outline:0;
 }
+
+#res {
+    text-align: center;
+}
+
+.numA {
+    color: red;
+    font-family: 'Lato';
+    font-size: xx-large;
+}
+
+.numB {
+    color: blue;
+    font-family: 'Lato';
+    font-size: xx-large;
+}
+
+.numC {
+    color: green;
+    font-family: 'Lato';
+    font-size: xx-large;
+}
+
+.resban {
+    font-family: 'Montserrat';
+}
+
+.exp {
+    font-family: 'Montserrat';
+}
