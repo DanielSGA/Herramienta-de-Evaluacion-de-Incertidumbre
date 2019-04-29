@@ -18,6 +18,9 @@ cleanButton.addEventListener("click", function() {
 });
 
 function calculate() {
+
+
+
     let valNec = parseInt(document.getElementById("necesidad").value);
     let valTend = parseInt(document.getElementById("tendencia").value);
     let valProy = parseInt(document.getElementById("proyecto").value);
@@ -106,7 +109,8 @@ function calculate() {
         `
         <h2 class="resban">El resultado para la idea es</h2>
         <h2 class="numA">${finalSum}</h2>
-        <h3 class="exp">Esto significa que la idea sí se necesita validar por UX</h3>
+        <h3 class="expA">Esto significa que la idea</h3>
+        <h3 class="exp">sí necesita validarse por UX</h3>
         `
     }
     if(finalSum > 70 && finalSum < 85)
@@ -115,7 +119,8 @@ function calculate() {
         `
         <h2 class="resban">El resultado para la idea es</h2>
         <h2 class="numB">${finalSum}</h2>
-        <h3 class="exp">Esto significa que la idea se necesita notificar a UX para exploración</h3>
+        <h3 class="expA">Esto significa que la idea necesita</h3>
+        <h3 class="exp">notificarse a UX para exploración</h3>
         `
     }
     if(finalSum > 85)
@@ -124,10 +129,11 @@ function calculate() {
         `
         <h2 class="resban">El resultado para la idea es</h2>
         <h2 class="numC">${finalSum}</h2>
-        <h3 class="exp">Esto significa que la idea exenta la validación ☺</h3>
+        <h3 class="expA">Esto significa que la idea</h3>
+        <h3 class="exp">exenta la validación ☺</h3>
         `
     }
 
-    $("#res").append(new_html);
-    window.scrollTo(0,document.body.scrollHeight);
+    $("#res").html(new_html);
+    //window.scrollTo(0,document.body.scrollHeight);
 }
